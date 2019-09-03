@@ -1,0 +1,14 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title text-capitalize>{{ nombre }} - {{ pais }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button (click)="leaveWithoutArguments()" color="primary" expand="full">
+    Leave without arguments
+  </ion-button>
+  <ion-button (click)="leaveWithArguments()" color="secondary" expand="full">
+    Leave with arguments
+  </ion-button>
+</ion-content>
